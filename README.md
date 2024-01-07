@@ -15,3 +15,6 @@ You will have four hours to complete the Burp Suite Certified Practitioner exam.
 
 If you find an SSRF vulnerability, you can use it to read files by accessing an internal-only service, running on localhost on port `6566`.
 
+`${{<%[%'"}}%\`
+
+
