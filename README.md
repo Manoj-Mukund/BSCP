@@ -17,4 +17,16 @@ If you find an SSRF vulnerability, you can use it to read files by accessing an 
 
 `${{<%[%'"}}%\`
 
+java path
+```
+D:\Application\java\jdk-11.0.20\bin\java.exe
+```
+ysoserial path
+```
+D:\Tools\tools\ysoserial\ysoserial-all.jar
+```
+
+
+
+
 
